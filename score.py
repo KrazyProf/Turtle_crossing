@@ -19,3 +19,9 @@ class Score(Turtle):
         self.LEVEL += 1
         self.clear()
         self.display()
+
+    def game_over(self):
+        game_over = Turtle()
+        game_over.hideturtle()
+        game_over.penup()
+        game_over.write(arg='GAME OVER.' , align='center' , font=('Courier' , 15 , 'normal'))
