@@ -1,6 +1,7 @@
 from turtle import Screen
 from car import Car
 from player import Player
+from score import Score
 import time
 
 screen = Screen()
@@ -14,6 +15,8 @@ car_manager = Car()
 # Creating player 
 player = Player()
 
+#Creating score
+score = Score()
 # Listening to key input
 screen.onkey(key='Up' , fun=player.move)
 
@@ -27,8 +30,15 @@ while True:
         car_manager.spawn_cars()
         spawn_condition = 0
     
-    # checking if player passed the level
+    # Detecting collision
+    for car in car_manager.cars:
+        if player.distance(car) < 10:
+            print('collision')
+            break
 
+    # checking if player passed the level
+    if player.ycor() > 290:
+        score.update_level()
 
     car_manager.move_car()
     spawn_condition += 1 
