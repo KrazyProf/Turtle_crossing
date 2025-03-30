@@ -21,10 +21,10 @@ A fun and addictive Python game using Turtle Graphics where you help a turtle cr
     python main.py
    
 ## 🎮 How to Play
--**Press the ↑ (Up Arrow) key to move forward**
--**Avoid colliding with colored cars**
--**Reach the top to advance to the next level**
--**Each level increases the car speed**
+- **Press the ↑ (Up Arrow) key to move forward**
+- **Avoid colliding with colored cars**
+- **Reach the top to advance to the next level**
+- **Each level increases the car speed**
 
 ## � Game Screenshots
 ### Level 1	
@@ -48,10 +48,10 @@ A fun and addictive Python game using Turtle Graphics where you help a turtle cr
   **Scoreboard**: Tracks and displays level progress (score.py)
 
 ## 🤝 Contributing
-   Contributions welcome! Please:
-      Fork the project
-      Create a feature branch
-      Submit a pull request
+- **Contributions welcome! Please:**
+     - **Fork the project**
+     - **Create a feature branch**
+     - **Submit a pull request**
 
 ## 📜 License
    MIT
