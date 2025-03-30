@@ -4,7 +4,7 @@ screen = Screen()
 
 class Score(Turtle):
 
-    LEVEL = 0
+    LEVEL = 1
     def __init__(self):
         super().__init__()
         self.display()
